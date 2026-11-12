@@ -1,0 +1,9 @@
+{
+  "transparency": 0,
+  "widgetTransparency": 0,
+  "borderEnabled": false,
+  "gothCornersEnabled": false,
+  "spacing": 8,
+  "island": false,
+  "widgetStyle": "pills"
+}

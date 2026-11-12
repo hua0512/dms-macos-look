@@ -1,0 +1,28 @@
+// macOS look for niri + DankMaterialShell (https://github.com/hua0512/dms-macos-look)
+// Included from config.kdl with: include "macos.kdl"
+
+// Top-left hot corner opens the overview, like Mission Control.
+gestures {
+    hot-corners {
+        top-left
+    }
+}
+
+// The Liquid Glass Bar plugin draws the refracted wallpaper under the bar itself,
+// so the compositor must not blur behind it.
+layer-rule {
+    match namespace="^dms:bar$"
+    background-effect {
+        blur false
+    }
+}
+
+// Frosted glass behind translucent terminals.
+window-rule {
+    match app-id="kitty"
+    match app-id="Alacritty"
+    match app-id="com.mitchellh.ghostty"
+    background-effect {
+        blur true
+    }
+}

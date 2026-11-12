@@ -1,0 +1,18 @@
+{
+  "fontFamily": "SF Pro",
+  "niriLayoutRadiusOverride": 12,
+  "niriLayoutGapsOverride": 8,
+  "blurEnabled": true,
+  "blurStrength": 90,
+  "blurForegroundLayers": true,
+  "blurBorderEnabled": true,
+  "blurLayerOutlineOpacity": 0.12,
+  "blurBorderOpacity": 0.25,
+  "popupTransparency": 0.72,
+  "foregroundLayerTransparency": 0.5,
+  "terminalOpacity": 85,
+  "iconThemePerMode": true,
+  "iconThemeDark": "WhiteSur-dark",
+  "iconThemeLight": "WhiteSur-light",
+  "cursorSettings": { "theme": "macOS", "size": 24 }
+}

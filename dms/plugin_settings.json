@@ -1,0 +1,18 @@
+{
+  "hiddenBar": { "enabled": true },
+  "liquidGlassBar": {
+    "enabled": true,
+    "refraction": 70,
+    "frost": 50,
+    "saturation": 108,
+    "tintStrength": 0,
+    "rimHighlight": 70,
+    "dispersion": 15,
+    "contrast": 50,
+    "shadow": 50,
+    "contentTint": 30,
+    "hoverGlow": true,
+    "liveVideo": false,
+    "liveFps": 24
+  }
+}
